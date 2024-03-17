@@ -112,7 +112,7 @@ export default createGame<HeartsPlayer, Hearts>(
         return action({
           prompt: "Pick three and pass them to the " + direction,
         })
-          .chooseOnBoard("cards", () => player.my("hand")!.all(Card), {
+          .chooseOnBoard("cards", player.my("hand")!.all(Card), {
             number: 3,
           })
           .do(({ cards }) =>
