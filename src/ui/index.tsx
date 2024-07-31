@@ -21,14 +21,14 @@ function handPosition(
 }
 
 render(setup, {
-  boardSizes: (_screenX, _screenY) => ({
+  boardSizes: [{
     name: "desktop",
+    desktop: true,
     aspectRatio: 1,
-  }),
+  }],
   settings: {
     omnibus: toggleSetting("10♦️ worth negative 10 points?"),
     noPass: toggleSetting("have a no-pass round?"),
-    // tokens: numberSetting('Number of tokens', 4, 24),
   },
   layout: (board, currentPlayer) => {
     board.disableDefaultAppearance();

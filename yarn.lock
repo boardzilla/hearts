@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@boardzilla/core@^0.2.0":
-  version "0.2.10"
-  resolved "https://registry.yarnpkg.com/@boardzilla/core/-/core-0.2.10.tgz#940ae4c3ee15c66a34542c849ab97ac9f35df4a8"
-  integrity sha512-7hLLd8d211h55LUy9yHImGDDp1aW+6Au+5tEn/BEkTVjqVlq30HWTKqQvyQuR9wf4W0VbHqhMv281kF8qG0tPw==
+"@boardzilla/core@^0.2.13":
+  version "0.2.13"
+  resolved "https://registry.yarnpkg.com/@boardzilla/core/-/core-0.2.13.tgz#fe328d96fe27c6e8c6a38620fb8ce5ebe5898006"
+  integrity sha512-cWAbFKFvJAfDsDth3oVPmXCcmLH0uo1plhzgRmwZnJnOo8+o/zITy3zMwfpWqVt3u6yiyV+wNW+6TmgJkyc2HA==
   dependencies:
     classnames "^2.3.1"
     graphology "^0.25.4"
@@ -1130,8 +1130,8 @@ yocto-queue@^1.0.0:
   integrity sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==
 
 zustand@^4.4.0:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.5.2.tgz#fddbe7cac1e71d45413b3682cdb47b48034c3848"
-  integrity sha512-2cN1tPkDVkwCy5ickKrI7vijSjPksFRfqS6237NzT0vqSsztTNnQdHw9mmN7uBdk3gceVXU0a+21jFzFzAc9+g==
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.5.4.tgz#63abdd81edfb190bc61e0bbae045cc4d52158a05"
+  integrity sha512-/BPMyLKJPtFEvVL0E9E9BTUM63MNyhPGlvxk1XjrfWTUlV+BR8jufjsovHzrtR6YNcBEcL7cMHovL1n9xHawEg==
   dependencies:
     use-sync-external-store "1.2.0"
